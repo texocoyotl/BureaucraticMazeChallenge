@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".RoomFragment"
+android:orientation="vertical">
+
+
+    <TextView
+            android:text="You are on:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView2" android:textAlignment="center"
+            style="@style/Base.TextAppearance.AppCompat.Body2"/>
+    <TextView
+            android:text="Room Name"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" android:id="@+id/tvRoomName" style="@style/Base.TextAppearance.AppCompat.Headline"
+            android:textAlignment="center" android:layout_weight="1" android:gravity="center_vertical"/>
+    <TextView
+            android:text="You need more approvals! Please get this forms signed by someone from:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/tvInstrutions" android:textAlignment="center"
+            style="@style/Base.TextAppearance.AppCompat.Body2"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:paddingBottom="48dp" android:layout_weight="1">
+        <Button
+                android:text="Exit 1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/btExit1" android:layout_weight="1" android:visibility="gone"
+                android:minLines="2" android:breakStrategy="simple"/>
+        <Button
+                android:text="Exit 2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/btExit2" android:layout_weight="1" android:visibility="gone"
+                android:minLines="2" android:breakStrategy="simple"/>
+        <Button
+                android:text="Exit 3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/btExit3" android:layout_weight="1" android:visibility="gone"
+                android:minLines="2" android:breakStrategy="simple"/>
+        <Button
+                android:text="Send Code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/btSend" android:layout_weight="1" android:visibility="gone"/>
+    </LinearLayout>
+</LinearLayout>

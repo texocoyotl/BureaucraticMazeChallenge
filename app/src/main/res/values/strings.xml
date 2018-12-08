@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BureaucraticMaze</string>
+    <string name="finish">Well, it seems you have everything in order, now go to your assigned desk and start working!</string>
+</resources>

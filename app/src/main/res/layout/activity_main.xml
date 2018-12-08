@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        tools:context="com.capone.myi627.bureaucraticmaze.MainActivity">
+
+    <TextView
+            android:text="Welcome to The Old Ways Institution, where we value good and organized paperwork for all your tramit needs! We are glad you join us as a new employee, so please follow the required process and deliver your documents to the required office... "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/tvIntro" style="@style/Base.TextAppearance.AppCompat.Large"
+            android:textAlignment="center"/>
+    <TextView
+            android:text="Enter your Employee ID:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/tvID" android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:layout_marginTop="24dp" android:textAlignment="center"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/edID" android:singleLine="true"/>
+    <Button
+            android:text="Begin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/btBegin"/>
+    <FrameLayout
+            android:id="@+id/roomContainer"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+</LinearLayout>
